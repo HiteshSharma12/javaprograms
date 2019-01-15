@@ -1,0 +1,6 @@
+Control Programs 
+int a,b,c,root1,root2;
+root1=(-b+(b^2-4ac)^1/2)/2a;
+root2=(-b-(b^2-4ac)^1/2)/2a;
+System.out.println("The variables has their usual meanings")
+System.out.println("THE ROOTS OF THE QUADRIC EQUATION ARE"+root1+root2);
