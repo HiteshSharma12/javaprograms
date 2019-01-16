@@ -1,5 +1,8 @@
-FLOATING PROGRAM
-public static void main(String[]args)
+
+import java.util.*;
+
+class FloatingPoint {
+public static void main(String[] args)
 {
 	Scanner in=new Scanner(System.in);
 
@@ -13,7 +16,7 @@ y=Math.round(y*1000);
 y=y/1000;
 if(x==y)
 {
-	System.out.println("same ");
+	System.out.println("same ");}
 	else
 	{
 	System.out.println("they are not same or Different");
